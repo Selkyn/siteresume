@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <title>Résumé Sylvain</title>
+</head>
+<body>
+    <header>
+        <h1>Développeur web et web mobile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Titre professionnel</a></li>
+                <li><a href="front-end.html">Front-End</a></li>
+                <li><a href="back-end.html" id="back-bar-ul">Back-End</a></li>
+                <li><a href="examen.html">Examen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Développeur Back-end</h2>
+        <p>Le développeur back-end s’occupe de la partie que l’utilisateur ne voit pas sur un site web, mais qui lui permet de réaliser des actions sur un site ou une application. Pour cela, il devra savoir gérer la base de données (création, modification, suppression des données). Il s’occupera donc de toute la partie code qui est exécuté par le serveur. Il devra aussi savoir gérer l’authentification des utilisateurs comme les personnes autorisées ou encore les mots de passes pour assurer la sécurité. Il devra respecter les recommandations ANSSI concernant la sécurité et la protection des données. Il doit assurer la stabilité du site et du serveur. Il devra faire des veilles technologiques afin de suivre les évolutions techniques et les problèmes de sécurité. Une connaissance d’un langage de requête de type SQL, une méthode d’interaction avec les bases de données noSQL seront nécessaire, ainsi qu’une base en anglais. Le travail se fera seul ou en équipe.</p>
+        <span id="separator"></span>
+
+        <section class="main-section">
+            <div class="main-section-div">
+                <h3>1. Mettre en place une base de données relationnelle</h3>
+                <p>Un schéma conceptuel doit être mis en place pour mettre en relation les données. A partir de ce schéma conceptuel, le développeur back-end devra établir un schéma de logique, puis mettre en place un schéma physique (qui se basera donc sur le schémas conceptuel et schéma logique). Ensuite Une base de données de tests sera mise en place (à partir du schéma physique) en intégrant les utilisateurs avec leurs droits d’accès, on pourra alors créer un jeu d’essai complet afin d’y faire des tests. La base de données sera sauvegardée pour pouvoir la restaurer en cas d’incident. La protection des données d’utilisateurs devra être respecté (RGPD).</p>
+            </div>
+            <img src="images/base-de-données.webp" alt="base-de-données" class="main-section-img">
+        </section>
+        <span id="separator"></span>
+
+        <section class="main-section">
+            <img src="images/SQL.jpg" alt="SQL" class="main-section-img">
+            <div class="main-section-div">
+                <h3>2. Développer des composants d’accès aux données SQL et NoSQL</h3>
+                <p>En respectant la base de données et le dossier de conception, il faudra pouvoir accéder aux données en les consultant, les modifiant, créant ou supprimant. Le développeur devra donc maitriser un logiciel de système de gestion de base de données (SGBD). Il devra s’assurer qu’il n’y a pas de conflits d’accès aux données, de respecter la confidentialité et prendre en compte les cas d’exception. Il devra assurer la sécurité de la base de données en connaissant les principales attaques, leurs parades mais aussi les mécanismes d’authentifications. </p>
+            </div>
+        </section>
+        <span id="separator"></span>
+
+        <section class="main-section">
+            <div class="main-section-div">
+                <h3>3. Développer des composants métier coté serveur</h3>
+                <p>Pour développer des composants métier côté serveur, il faut modéliser la logique métier, c'est-à-dire un ensemble de règles et de procédures qui régissent les opérations de l'application. Les composants doivent également traiter les données, interagir avec la base de données (créer, mettre à jour, supprimer les données (CRUD: Create Read Update Delete)), et assurer la sécurité. Il est important de respecter les bonnes pratiques de conception, qui peuvent inclure la programmation orientée objet (POO) ainsi que d'autres paradigmes de programmation en fonction des besoins du projet.</p>
+            </div>
+            <img src="images/serveur.jpg" alt="serveur" class="main-section-img">
+        </section>
+        <span id="separator"></span>
+
+        <section class="main-section">
+            <img src="images/deploiement.png" alt="deploiement" class="main-section-img">
+            <div class="main-section-div">
+                <h3>4. Documenter le déploiement d’une application dynamique web</h3>
+                <p>En fin de processus de développement et de tests, documenter le déploiement d’une application sera crucial. Cela permettra à l’application d’être mise en place rapidement, reproductible et sans erreur. Les scripts de déploiement seront écrits et documentés. Le déploiement devra être tenu à jour pour éviter toutes problématiques. Un mouvement devOPS pourra être appliqué pour améliorer le process, accélérer les cycles de développement.</p>
+            </div>
+        </section>
+        <span id="separator"></span>
+    </main>
+
+    <footer>
+        <img src="images/eat-code.webp" alt="eat-and-code">
+        <span>2023 &copy; Sylvain François</span>
+    </footer>
+</body>
+</html>
